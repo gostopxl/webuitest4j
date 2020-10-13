@@ -59,7 +59,8 @@ public class AbcnullPage extends BasePage {
          * 由于我的浏览器开启会多一个 data 页面，因此我这里有三个页面
          * 没有 data 页面的小伙伴建议采用 switchNextHandle 方法
          */
-        switchHandleByNum(3);
+//        switchHandleByNum(3);
+        switchNextHandle();
         // 返回是否进入指定页面
         return ifTitleContains(AbcnullData.BLOGTITLE);
     }

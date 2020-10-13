@@ -21,5 +21,6 @@ public class AbcnullData {
     /**
      * 一篇博客的标题
      */
-    public static final String BLOGTITLE = "java selenium testng框架搭建终极版（含源码）";
+//    public static final String BLOGTITLE = "java selenium testng框架搭建终极版（含源码）";
+    public static final String BLOGTITLE = "java selenium testng框架搭建终极版";
 }
