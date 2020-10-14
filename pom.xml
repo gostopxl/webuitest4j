@@ -164,6 +164,13 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <version>2.5</version>
+                	<webXml>src\main\webapp\WEB-INF\web.xml</webXml>
+                </configuration>
+            </plugin>
             <!-- 测试插件 surefire -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
